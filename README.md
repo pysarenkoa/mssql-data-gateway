@@ -17,13 +17,13 @@ REQUEST BODY:
 ```
 {
     "credentials": {
-        "username": "DevCore_local",
+        "username": "some_username",
         "password": "some_password",
-        "database": "np_awdb",
-        "host": "PCCE-HDS1A",
+        "database": "my_db",
+        "host": "host.name",
         "port": 1433
     },
-    "sql_query": "SELECT PersonID, EnterpriseName FROM np_awdb.dbo.t_Agent AS Agents WHERE EnterpriseName IN ('leliukh.v','akhtyrskyi.m');"
+    "sql_query": "SELECT PersonID, EnterpriseName FROM my_db.dbo.Agent AS Agents WHERE EnterpriseName IN ('leliukh.v','akhtyrskyi.m');"
 }
 ```
 
